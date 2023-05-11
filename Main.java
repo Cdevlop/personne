@@ -1,3 +1,4 @@
+import outils.Personne;
 public class Main {
     public static void main(String[] args) {
         /** Lorsque'on déclare une variable de type objet, on dit que l'on fait
@@ -37,7 +38,7 @@ public class Main {
             tableauPersonnes[i] = new Personne();
         }
 
-        tableauPersonnes[0].setPrenom(Gérard);
+        tableauPersonnes[0].prenom = "Gérard";
         tableauPersonnes[0].nom = "Menfin";
         tableauPersonnes[0].setAge(35);
         // tableauPersonnes[1] = new Personne();
@@ -53,8 +54,7 @@ public class Main {
          * Une variable de type objet qui n'as pas été initialisée est considéréé comme étant NULL
          */
 
-         /c:/Users/Formation/java_cours_philiance/objet
-
+        
        
         
 

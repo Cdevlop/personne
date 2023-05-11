@@ -1,10 +1,14 @@
+/*Le namespace pour une classe est l'équivalent du chemin du dossier pour un fichier.
+En JAVA, on utilise le mot clé package. Le package
+*/
+package outils;
 public class Personne{
     /* Les propriétés (ou attributs) définies dans une classe correspondent
      * aux caractéristiques des objets qui vont être créés à partir de cette
      * classe.
      */
-    private String prenom = "défaut";
-    private String nom;
+    public String prenom = "défaut";
+    public String nom;
     private int age;
 
     /** CONSTRUCTEUR
@@ -53,17 +57,9 @@ public class Personne{
     public void setAge(int age) {
         this.age = age;
     }
-    public String getPrenom() {
-        return this.prenom;
-    }
-    public void setPrenom() {
-        this.prenom = prenom;
-    }
-    public void setNom() {
-        this.nom = nom;
-    }
-    public String getNom() {
-        return this.nom;
+    
+    public static void test(){
+        System.out.println("Méthode statique test de la classe Personne");
     }
     
   
